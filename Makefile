@@ -1,5 +1,8 @@
 all: test build lint
 
+run:
+	go run cmd/run.go
+
 build:
 	go build .
 	go test . -run xxx
