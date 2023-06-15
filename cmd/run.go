@@ -19,4 +19,6 @@ func main() {
 	gocurrency.SimpleWaitGroup()
 	fmt.Println("----------------Mutexes---------------------------")
 	gocurrency.Mutexes()
+	fmt.Println("----------------Concurrent Data Access---------------------------")
+	gocurrency.DataAccess()
 }
